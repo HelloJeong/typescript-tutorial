@@ -16,3 +16,6 @@
   - gender는 안 넣어도 됨(안 넣을 시 undefined)
 - `types` : 파라미터, 함수의 반환값의 타입을 지정
 - `interface` : typescript에서만 사용되는 문법, 파라미터로 객체를 넘길 때 유용
+- `interface`를 js 코드에 넣고 싶다면 `class`를 사용하면 된다.
+  - interface는 ts 측면에서 안전함, 하지만 그 외에서 사용하게 될 경우는 class가 좋을 수도 있음
+  - public, private 사용 가능

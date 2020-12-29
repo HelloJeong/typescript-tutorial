@@ -1,0 +1,13 @@
+{
+  "name": "typescript-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "prestart": "yarn tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}

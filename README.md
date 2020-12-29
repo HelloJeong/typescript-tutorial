@@ -8,6 +8,8 @@
 - 컴파일 : wsl2의 경우는 `yarn add typescript --dev` -> `yarn tsc`
 - `yarn add tsc-watch --dev`
   - node로 치면 nodemon
+- `yarn add crypto-js`
+  - `import * as CryptoJS from "crypto-js"`;
 
 ## Note
 
@@ -19,3 +21,4 @@
 - `interface`를 js 코드에 넣고 싶다면 `class`를 사용하면 된다.
   - interface는 ts 측면에서 안전함, 하지만 그 외에서 사용하게 될 경우는 class가 좋을 수도 있음
   - public, private 사용 가능
+- 배열 타입일 때는 `:types[]`
